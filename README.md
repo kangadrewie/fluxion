@@ -1,4 +1,13 @@
-![Fuxion logo](https://github.com/FluxionNetwork/fluxion/raw/master/logos/logo.jpg)
+# Overview
+Fork of the popular network auditing and social engineering research tool, Fluxion. 
+
+## TODOS
+Enable users to use tmux rather than xterm for process windows to avoid x11 related issues when using fluxion over ssh.
+
+
+
+
+
 
 # Fluxion is the future of MITM WPA attacks
 Fluxion is a security auditing and social-engineering research tool. It is a remake of linset by vk496 with (hopefully) fewer bugs and more functionality. The script attempts to retrieve the WPA/WPA2 key from a target access point by means of a social engineering (phishing) attack. It's compatible with the latest release of Kali (rolling). Fluxion's attacks' setup is mostly manual, but experimental auto-mode handles some of the attacks' setup parameters. Read the [FAQ](https://github.com/FluxionNetwork/fluxion/wiki/FAQ) before requesting issues.
